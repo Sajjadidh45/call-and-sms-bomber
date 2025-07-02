@@ -1,0 +1,32 @@
+{
+  "name": "sms-bomb",
+  "version": "1.0.0",
+  "description": "Bombard a phone number with SMSs",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js",
+    "dev": "nodemon run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "http": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "ngrok": "^3.3.0",
+    "portfinder": "^1.0.28",
+    "qs": "^6.9.4",
+    "random-words": "^1.1.1",
+    "twilio": "^3.49.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
